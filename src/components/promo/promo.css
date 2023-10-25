@@ -1,0 +1,68 @@
+.promo {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding-top: 88px;
+}
+
+.promo-text h1 {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.promo-text {
+  max-width: 550px;
+}
+
+.promo-text h1 span {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.7;
+}
+
+.promo-text p {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+  padding: 20px 0 50px;
+}
+
+.promo-text p span {
+  font-weight: 500;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.promo-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f53838;
+  box-shadow: 8px 10px 10px rgba(245, 56, 56, 0.35) ;
+
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+}
+
+.promo-btn:hover {
+  background-color: #d62f2f;
+}

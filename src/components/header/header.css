@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-logo span {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -10px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header ul li:hover{
+	color: #f53855;
+}
+.header-login {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  margin-left: 150px;
+}
+
+.header-login .sign-up {
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ;
+}
+
+
+.header-login .sign-up:hover{
+	background-color: #f53855;
+	color: #fff;
+	border: none;
+}
