@@ -1,0 +1,55 @@
+.global-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 130px;
+}
+
+.global-title h1 {
+  color: #0b132a;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 383px;
+}
+
+.global-title p {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 555px;
+  padding: 20px 0 155px;
+}
+
+.global-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.global-img{
+	max-width: 1059px;
+	max-height: 538px;
+}
+
+.global-brends{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 47px;
+	padding-top: 130px;
+}
+
+.global-brends img{
+	max-width: 190px;
+	max-height: 60px;
+}
