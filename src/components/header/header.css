@@ -56,6 +56,12 @@
   margin-left: 150px;
 }
 
+.header-logo{
+	cursor: pointer;
+	max-width: 149px;
+	max-height: 37px;
+}
+
 .header-login .sign-up {
   width: 150px;
   height: 40px;
