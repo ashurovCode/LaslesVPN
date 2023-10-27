@@ -1,0 +1,93 @@
+.review-info-container {
+  /* display: flex;
+  align-items: center; */
+  padding: 30px 30px;
+  width: 400px;
+  min-height: 230px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #f53838;
+  background: #fff;
+}
+
+.review-user img {
+  display: flex;
+  float: left;
+}
+.review-user h3 {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.review-user img {
+  display: block;
+  margin-right: 10px;
+}
+.review-user p {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.review-info{
+	display: flex;
+	justify-content: center;
+	column-gap: 20px;
+}
+
+.review-user-info span {
+  display: flex;
+  column-gap: 10px;
+}
+.review-user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-user-text {
+  padding-top: 20px;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.slide-com h2 {
+  display: flex;
+  margin: 0 auto;
+  width: 447.805px;
+  color: #0b132a;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.slide-com .slide-com-desc {
+	display: flex;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+  width: 555px;
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8; 
+}
+

@@ -4,7 +4,7 @@ import Info from "./components/info/Info";
 import Features from "./components/features/Features";
 import Plan from "./components/plan/Plan";
 import Global from "./components/globalmap/Global";
-
+import ReviewSlider from './components/reviewslider/ReviewSlider'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
 		<Features />
 		<Plan />
 		<Global />
+		<ReviewSlider />
     </div>
   );
 }
