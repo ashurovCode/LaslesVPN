@@ -5,6 +5,8 @@ import Features from "./components/features/Features";
 import Plan from "./components/plan/Plan";
 import Global from "./components/globalmap/Global";
 import ReviewSlider from './components/reviewslider/ReviewSlider'
+import Subscribe from "./components/subscribe/Subscribe";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
 		<Plan />
 		<Global />
 		<ReviewSlider />
+		<Subscribe />
+		<Footer />
     </div>
   );
 }

@@ -13,7 +13,7 @@ class ReviewSlider extends Component {
       reviews: [
         {
           author: "Viezh Robert",
-          text: "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
+          text: "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
           userImg: viezhImg,
           location: "Warsaw, Poland",
           star: "4.5",
@@ -21,7 +21,7 @@ class ReviewSlider extends Component {
         },
         {
           author: "Yessica Christy",
-          text: "“I like it because I like to travel far and still can connect with high speed.”.",
+          text: "I like it because I like to travel far and still can connect with high speed.",
           userImg: yessicaImg,
           location: "Shanxi, China",
           star: "4.2",
@@ -29,7 +29,7 @@ class ReviewSlider extends Component {
         },
         {
           author: "Kim Young Jou",
-          text: "“This is very unusual for my business that currently requires a virtual private network that has high security.”.",
+          text: "This is very unusual for my business that currently requires a virtual private network that has high security.",
           userImg: kimImg,
           location: "Seoul, South Korea",
           star: "5.0",

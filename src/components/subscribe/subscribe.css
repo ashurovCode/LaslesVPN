@@ -1,0 +1,58 @@
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  height: 233px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.subscribe-title {
+  padding: 58px 0 58px 70px;
+  max-width: 440px;
+}
+
+.subscribe-title h1 {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.subscribe-title p {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.subscribe-btn {
+  padding: 86px 70px 86px 0;
+}
+
+.subscribe-btn button {
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f53838;
+
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transition: all 0.5s ease;
+}
+
+.subscribe-btn button:hover{
+	background-color: #ce2c2c;
+}
